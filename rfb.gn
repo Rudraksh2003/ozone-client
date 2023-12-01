@@ -1,4 +1,4 @@
-# BUILD.gn
+
 static_library("rfb") {
   sources = [
     "ozone_platform_rfb.cc",
