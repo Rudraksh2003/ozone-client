@@ -1,0 +1,19 @@
+# BUILD.gn
+static_library("rfb") {
+  sources = [
+    "ozone_platform_rfb.cc",
+    "ozone_platform_rfb.h",
+    # additional source files for your platform
+  ]
+
+  include_dirs = [
+    "..",
+  ]
+
+  deps = [
+    "//base:base",
+    "//ui/gfx:gfx",
+    "//ui/events:events",
+    # additional dependencies for your platform
+  ]
+}
